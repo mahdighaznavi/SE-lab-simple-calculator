@@ -15,7 +15,7 @@ if __name__ == "__main__":
         elif ops[0] == "/":
             print(float(ops[1]) / float(ops[2]))
         elif ops[0] == "power":
-            print(int(ops[1]) ** float(ops[2]))
+            print(float(ops[1]) ** float(ops[2]))
         elif ops[0] == "l":
             print(math.log(float(ops[1]), 2))
 
