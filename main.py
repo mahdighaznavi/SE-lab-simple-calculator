@@ -18,5 +18,6 @@ if __name__ == "__main__":
             print(int(ops[1]) ** float(ops[2]))
         elif ops[0] == "l":
             print(math.log(float(ops[1]), 2))
+
         command = input().strip()
     print("Thanks for choosing us :)")
